@@ -1,0 +1,21 @@
+:root {
+  /* color */
+  --color-black: #000;
+  --color-black-light: #333;
+  --color-white: #fff;
+  --color-red: #ff0000;
+  --color-blue: #045fd4;
+  --color-grey-dart: #909090;
+  --color-grey-light: #e0e0e0;
+
+  /* font size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+
+  /* layout size */
+
+
+  
+}
