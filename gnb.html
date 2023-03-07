@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive nav</title>
+  <link rel="stylesheet" href="./css/gnb.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./js/gnb.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="blind">Responsive nav bar</h1>
+    <div class="header__cont">
+      <h2 class="header__logo">
+        <a href="#">SEUNGMI</a>
+      </h2>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Bookings</a></li>
+        </ul>
+      </nav>
+      <ul class="header__util">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+    </div>
+    <button type="button" class="header__toggle">
+      <i class="fa-solid fa-bars"></i>
+      <span class="blind">Menu toggle button</span>
+    </button>
+  </header>
+</body>
+</html>
